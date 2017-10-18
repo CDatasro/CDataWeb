@@ -14,7 +14,7 @@
 @using (Html.BeginForm("SetCulture", "Home"))
 {
     <fieldset>
-        <legend>@HomeResource.ChooseYourLanguage</legend>
+        <legend>@Resources.HomeResource.ChooseYourLanguage</legend>
 
         <div class="control-group">
             <div class="controls">
@@ -26,21 +26,11 @@
 
         <div class="control-group">
             <div class="controls">
-                <label for="es">
-                    <input name="culture" id="es" value="es" type="radio" @selected("es", culture) /> Español
+                <label for="sk-SK">
+                    <input name="culture" id="sk-SK" value="sk-SK" type="radio" @selected("sk-SK", culture) /> Español
                 </label>
             </div>
         </div>
-
-        <div class="control-group">
-            <div class="controls">
-                <label for="ar">
-                    <input name="culture" id="ar" value="ar" type="radio" @selected("ar", culture) /> العربية
-                </label>
-            </div>
-        </div>
-
-
     </fieldset>
 
 
