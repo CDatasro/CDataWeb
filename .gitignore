@@ -95,9 +95,5 @@ Invoices/
 ObjectPricelistFiles/
 .vscode/
 
-# Minified files
-[Cc]ontent/*.min.css
-*.min.css
-
 # CSS files made from LESS
 CDataWeb/Content/404.css
