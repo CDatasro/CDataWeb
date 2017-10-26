@@ -120,4 +120,7 @@
   <data name="ChooseYourLanguage" xml:space="preserve">
     <value>Choose your language</value>
   </data>
+  <data name="title" xml:space="preserve">
+    <value>CData s.r.o.</value>
+  </data>
 </root>

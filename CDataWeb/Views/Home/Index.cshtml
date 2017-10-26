@@ -1,42 +1,22 @@
-﻿@{
+﻿@model CDataWeb.Models.HomeViewModel
+@{
     ViewBag.Title = "Home Page";
     var culture = System.Threading.Thread.CurrentThread.CurrentUICulture.Name.ToLowerInvariant();
 }
-<!--
-@helper selected(string c, string culture)
-{
-    if (c == culture)
-    {
-        @:checked="checked"
-    }
-}
 
-@using (Html.BeginForm("SetCulture", "Home"))
+@using (Html.BeginForm("SetCulture", "Home", FormMethod.Post))
 {
+    @Html.HiddenFor(s => s.SelectedLanguage)
     <fieldset>
         <legend>@Resources.HomeResource.ChooseYourLanguage</legend>
-
-        <div class="control-group">
-            <div class="controls">
-                <label for="en-us">
-                    <input name="culture" id="en-us" value="en-us" type="radio" @selected("en-us", culture) /> English
-                </label>
-            </div>
-        </div>
-
-        <div class="control-group">
-            <div class="controls">
-                <label for="sk-SK">
-                    <input name="culture" id="sk-SK" value="sk-SK" type="radio" @selected("sk-SK", culture) /> Slovak
-                </label>
-            </div>
-        </div>
+        <label>@Html.RadioButtonFor(s => s.SelectedLanguage, "en-us", new { onchange = "this.form.submit();" })English</label>
+        <label>@Html.RadioButtonFor(s => s.SelectedLanguage, "sk-SK", new { onchange = "this.form.submit();" })Slovak</label>
     </fieldset>
 
 
 
 }
-    -->
+   
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Oxygen - One Page HTML Template | Themeum</title>
+    <title>@Resources.HomeResource.title</title>
     <link href="~/css/bootstrap.min.css" rel="stylesheet">
     <link href="~/css/animate.min.css" rel="stylesheet">
     <link href="~/css/font-awesome.min.css" rel="stylesheet">

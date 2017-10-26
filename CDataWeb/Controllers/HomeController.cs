@@ -1,4 +1,5 @@
 ﻿using CDataWeb.Helpers;
+using CDataWeb.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,11 +29,12 @@ namespace CDataWeb.Controllers
             return View();
         }
 
-        public ActionResult SetCulture(string culture)
+        [HttpPost]
+        public ActionResult SetCulture(HomeViewModel model)
         {
             // Validate input
-            culture = CultureHelper.GetImplementedCulture(culture);
-
+            var culture = CultureHelper.GetImplementedCulture(this.ModelState["SelectedLanguage"].Value.AttemptedValue.Replace(",",""));
+            
             // Save culture in a cookie
             HttpCookie cookie = Request.Cookies["_culture"];
             if (cookie != null)

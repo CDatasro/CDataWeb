@@ -68,5 +68,14 @@ namespace Resources {
                 return ResourceManager.GetString("ChooseYourLanguage", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CData s.r.o..
+        /// </summary>
+        public static string title {
+            get {
+                return ResourceManager.GetString("title", resourceCulture);
+            }
+        }
     }
 }
