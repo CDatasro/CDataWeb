@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>@Resources.HomeResource.title</title>
+    <title>@Resources.HomeResource.Title</title>
     <link href="~/css/bootstrap.min.css" rel="stylesheet">
     <link href="~/css/animate.min.css" rel="stylesheet">
     <link href="~/css/font-awesome.min.css" rel="stylesheet">
@@ -81,13 +81,12 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="scroll active"><a href="#home">Home</a></li>
-                        <li class="scroll"><a href="#services">Service</a></li>
-                        <li class="scroll"><a href="#about-us">About Us</a></li>
-                        <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-                        <li class="scroll"><a href="#team">Team</a></li>
-                        <li class="scroll"><a href="#blog">Blog</a></li>
-                        <li class="scroll"><a href="#contact">Contact</a></li>
+                        <li class="scroll active"><a href="#home">@Resources.HomeResource.Home</a></li>
+                        <li class="scroll"><a href="#about-us">@Resources.HomeResource.AboutUS</a></li>
+                        <li class="scroll"><a href="#portfolio">@Resources.HomeResource.Portfolio</a></li>
+                      <!--  <li class="scroll"><a href="#team">Team</a></li>
+                        <li class="scroll"><a href="#blog">Blog</a></li> -->
+                        <li class="scroll"><a href="#contact">@Resources.HomeResource.Contact</a></li>
 
                     </ul>
                     <a href="@Url.Action("SetCulture","Home", new { culture = "en-GB" })"><img src="@Url.Content("~/images/United_Kingdom_flat.png")" alt="Home" /></a>
@@ -722,8 +721,7 @@
             <div class="container">
                 <div class="row">
                     <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <h2>Contact Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+                        <h2>@Resources.HomeResource.ContactUs</h2>
                     </div>
                 </div>
                 <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -733,23 +731,23 @@
                                 <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                                            @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @placeholder = @Resources.HomeResource.Name })
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = @Resources.HomeResource.EmailAddress })
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                                    @Html.TextBoxFor(m => m.Subject, new { @class = "form-control", @placeholder = @Resources.HomeResource.Subject })
                                 </div>
                                 <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+                                    @Html.TextBoxFor(m => m.Message, new { @class = "form-control", @placeholder = @Resources.HomeResource.EnterYourMessage })
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn-submit">Send Now</button>
+                                    <button type="submit" class="btn-submit">@Resources.HomeResource.SendNow</button>
                                 </div>
                             </form>
                         </div>
