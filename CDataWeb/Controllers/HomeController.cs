@@ -29,12 +29,9 @@ namespace CDataWeb.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult SetCulture(HomeViewModel model)
+        [HttpGet]
+        public ActionResult SetCulture(string culture)
         {
-            // Validate input
-            var culture = CultureHelper.GetImplementedCulture(this.ModelState["SelectedLanguage"].Value.AttemptedValue.Replace(",",""));
-            
             // Save culture in a cookie
             HttpCookie cookie = Request.Cookies["_culture"];
             if (cookie != null)
@@ -50,5 +47,6 @@ namespace CDataWeb.Controllers
 
             return RedirectToAction("Index");
         }
+
     }
 }

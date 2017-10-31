@@ -4,19 +4,8 @@
     var culture = System.Threading.Thread.CurrentThread.CurrentUICulture.Name.ToLowerInvariant();
 }
 
-@using (Html.BeginForm("SetCulture", "Home", FormMethod.Post))
-{
-    @Html.HiddenFor(s => s.SelectedLanguage)
-    <fieldset>
-        <legend>@Resources.HomeResource.ChooseYourLanguage</legend>
-        <label>@Html.RadioButtonFor(s => s.SelectedLanguage, "en-us", new { onchange = "this.form.submit();" })English</label>
-        <label>@Html.RadioButtonFor(s => s.SelectedLanguage, "sk-SK", new { onchange = "this.form.submit();" })Slovak</label>
-    </fieldset>
 
-
-
-}
-   
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,8 +30,10 @@
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="~/images/favicon.ico">
+
 </head><!--/head-->
 <body>
+
     <!--.preloader-->
     <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
     <!--/.preloader-->
@@ -97,7 +88,10 @@
                         <li class="scroll"><a href="#team">Team</a></li>
                         <li class="scroll"><a href="#blog">Blog</a></li>
                         <li class="scroll"><a href="#contact">Contact</a></li>
+
                     </ul>
+                    <a href="@Url.Action("SetCulture","Home", new { culture = "en-GB" })"><img src="@Url.Content("~/images/United_Kingdom_flat.png")" alt="Home" /></a>
+                    <a href="@Url.Action("SetCulture","Home", new { culture = "sk-SK" })"><img src="@Url.Content("~/images/Slovakia_flat.png")" alt="Home" /></a>
                 </div>
             </div>
         </div><!--/#main-nav-->

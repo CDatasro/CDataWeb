@@ -264,11 +264,13 @@
     <Content Include="images\slider\1.jpg" />
     <Content Include="images\slider\2.jpg" />
     <Content Include="images\slider\3.jpg" />
+    <Content Include="images\Slovakia_flat.png" />
     <Content Include="images\team\1.jpg" />
     <Content Include="images\team\2.jpg" />
     <Content Include="images\team\3.jpg" />
     <Content Include="images\team\4.jpg" />
     <Content Include="images\twitter-bg.jpg" />
+    <Content Include="images\United_Kingdom_flat.png" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\html5shiv.js" />
     <Content Include="js\jquery.countTo.js" />
