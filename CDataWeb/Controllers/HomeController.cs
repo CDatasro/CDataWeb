@@ -48,10 +48,15 @@ namespace CDataWeb.Controllers
             return RedirectToAction("Index");
         }
 
-        public static bool SendGmail(string subject, string content, string[] recipients, string from)
+        [HttpPost]
+        public ActionResult SendEmail(HomeViewModel model)
         {
-            if (recipients == null || recipients.Length == 0)
-                throw new ArgumentException("recipients");
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("Index");
+            }
+
+            string recipients = "cdatasro@gmail.com";
 
             var gmailClient = new System.Net.Mail.SmtpClient
             {
@@ -59,25 +64,22 @@ namespace CDataWeb.Controllers
                 Port = 587,
                 EnableSsl = true,
                 UseDefaultCredentials = false,
-                Credentials = new System.Net.NetworkCredential("******", "*****")
+                Credentials = new System.Net.NetworkCredential("cdatasro@gmail.com", "860114qWE")
             };
 
-            using (var msg = new System.Net.Mail.MailMessage(from, recipients[0], subject, content))
+            using (var msg = new System.Net.Mail.MailMessage(model.Email, recipients,model.Name + " " + model.Subject, model.Message))
             {
-                for (int i = 1; i < recipients.Length; i++)
-                    msg.To.Add(recipients[i]);
-
                 try
                 {
                     gmailClient.Send(msg);
-                    return true;
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
                     // TODO: Handle the exception
-                    return false;
-                }
+                }              
             }
+
+            return RedirectToAction("Index");
         }
 
     }
