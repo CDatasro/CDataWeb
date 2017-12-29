@@ -198,8 +198,26 @@
   <data name="Phone" xml:space="preserve">
     <value>Telefón</value>
   </data>
+  <data name="PortfBankText" xml:space="preserve">
+    <value>Interný bankový software</value>
+  </data>
+  <data name="PortfBusText" xml:space="preserve">
+    <value>Programy pre podporu vodičov aj pasažierov</value>
+  </data>
+  <data name="PortfFacebText" xml:space="preserve">
+    <value>Facebook aplikácia na hlasovanie</value>
+  </data>
+  <data name="PortfLivingText" xml:space="preserve">
+    <value>Ubytovací portál</value>
+  </data>
   <data name="Portfolio" xml:space="preserve">
     <value>Portfólio</value>
+  </data>
+  <data name="PortfScientText" xml:space="preserve">
+    <value>Software na komunikáciu a distribúciu informácií medzi doktormi a pacientmi</value>
+  </data>
+  <data name="PortfTrainText" xml:space="preserve">
+    <value>Informačný systém infraštruktúry</value>
   </data>
   <data name="ProfiDesign" xml:space="preserve">
     <value>Profesionálny dizajn</value>

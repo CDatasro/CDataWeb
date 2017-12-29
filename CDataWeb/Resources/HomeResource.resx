@@ -198,8 +198,26 @@
   <data name="Phone" xml:space="preserve">
     <value>Phone</value>
   </data>
+  <data name="PortfBankText" xml:space="preserve">
+    <value>Bank internal software</value>
+  </data>
+  <data name="PortfBusText" xml:space="preserve">
+    <value>Software for drivers and passangers</value>
+  </data>
+  <data name="PortfFacebText" xml:space="preserve">
+    <value>Facebook voting application</value>
+  </data>
+  <data name="PortfLivingText" xml:space="preserve">
+    <value>Software helps custommer rent their cottages</value>
+  </data>
   <data name="Portfolio" xml:space="preserve">
     <value>Portfolio</value>
+  </data>
+  <data name="PortfScientText" xml:space="preserve">
+    <value>Software to communicate and distribute information between patients and doctors  </value>
+  </data>
+  <data name="PortfTrainText" xml:space="preserve">
+    <value>Information system infrastructure</value>
   </data>
   <data name="ProfiDesign" xml:space="preserve">
     <value>Proffesional design</value>

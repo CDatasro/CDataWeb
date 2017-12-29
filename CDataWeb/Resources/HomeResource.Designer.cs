@@ -304,11 +304,65 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bank internal software.
+        /// </summary>
+        public static string PortfBankText {
+            get {
+                return ResourceManager.GetString("PortfBankText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Software for drivers and passangers.
+        /// </summary>
+        public static string PortfBusText {
+            get {
+                return ResourceManager.GetString("PortfBusText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Facebook voting application.
+        /// </summary>
+        public static string PortfFacebText {
+            get {
+                return ResourceManager.GetString("PortfFacebText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Software helps custommer rent their cottages.
+        /// </summary>
+        public static string PortfLivingText {
+            get {
+                return ResourceManager.GetString("PortfLivingText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Portfolio.
         /// </summary>
         public static string Portfolio {
             get {
                 return ResourceManager.GetString("Portfolio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Software to communicate and distribute information between patients and doctors  .
+        /// </summary>
+        public static string PortfScientText {
+            get {
+                return ResourceManager.GetString("PortfScientText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Information system infrastructure.
+        /// </summary>
+        public static string PortfTrainText {
+            get {
+                return ResourceManager.GetString("PortfTrainText", resourceCulture);
             }
         }
         
