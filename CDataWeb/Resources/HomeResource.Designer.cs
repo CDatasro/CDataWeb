@@ -70,11 +70,83 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, sientist and facebook applications.
+        /// </summary>
+        public static string AboutUsText {
+            get {
+                return ResourceManager.GetString("AboutUsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Address.
+        /// </summary>
+        public static string Address {
+            get {
+                return ResourceManager.GetString("Address", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Analysis.
+        /// </summary>
+        public static string Analysis {
+            get {
+                return ResourceManager.GetString("Analysis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our product are based on through analysis.
+        /// </summary>
+        public static string AnalysisText {
+            get {
+                return ResourceManager.GetString("AnalysisText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to App Development.
+        /// </summary>
+        public static string AppDevelopment {
+            get {
+                return ResourceManager.GetString("AppDevelopment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We develop applications via modern programing languages.
+        /// </summary>
+        public static string AppDevelopmentText {
+            get {
+                return ResourceManager.GetString("AppDevelopmentText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Choose your language.
         /// </summary>
         public static string ChooseYourLanguage {
             get {
                 return ResourceManager.GetString("ChooseYourLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clean Code.
+        /// </summary>
+        public static string CleanCode {
+            get {
+                return ResourceManager.GetString("CleanCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our code is clean to easy use for custommers and developers.
+        /// </summary>
+        public static string CleanCodeText {
+            get {
+                return ResourceManager.GetString("CleanCodeText", resourceCulture);
             }
         }
         
@@ -88,11 +160,38 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to In case you are quesions, please contact us.
+        /// </summary>
+        public static string ContactHeader {
+            get {
+                return ResourceManager.GetString("ContactHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
         public static string ContactUs {
             get {
                 return ResourceManager.GetString("ContactUs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Creative solution.
+        /// </summary>
+        public static string CreativeIdea {
+            get {
+                return ResourceManager.GetString("CreativeIdea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our solutions are creative and ińovative.
+        /// </summary>
+        public static string CreativeIdeaText {
+            get {
+                return ResourceManager.GetString("CreativeIdeaText", resourceCulture);
             }
         }
         
@@ -115,6 +214,33 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fast Support.
+        /// </summary>
+        public static string FastSupport {
+            get {
+                return ResourceManager.GetString("FastSupport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fun.
+        /// </summary>
+        public static string Fun {
+            get {
+                return ResourceManager.GetString("Fun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Happy Clients.
+        /// </summary>
+        public static string HappyClients {
+            get {
+                return ResourceManager.GetString("HappyClients", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
         public static string Home {
@@ -133,11 +259,47 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Modern Websites.
+        /// </summary>
+        public static string ModernWebsites {
+            get {
+                return ResourceManager.GetString("ModernWebsites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
         public static string Name {
             get {
                 return ResourceManager.GetString("Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our Portfolio.
+        /// </summary>
+        public static string OurPortfolio {
+            get {
+                return ResourceManager.GetString("OurPortfolio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our Services.
+        /// </summary>
+        public static string OurServices {
+            get {
+                return ResourceManager.GetString("OurServices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone.
+        /// </summary>
+        public static string Phone {
+            get {
+                return ResourceManager.GetString("Phone", resourceCulture);
             }
         }
         
@@ -151,11 +313,47 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Proffesional design.
+        /// </summary>
+        public static string ProfiDesign {
+            get {
+                return ResourceManager.GetString("ProfiDesign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Design of our applications follow modern style.
+        /// </summary>
+        public static string ProfiDesignText {
+            get {
+                return ResourceManager.GetString("ProfiDesignText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Programming.
+        /// </summary>
+        public static string Programming {
+            get {
+                return ResourceManager.GetString("Programming", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send Now.
         /// </summary>
         public static string SendNow {
             get {
                 return ResourceManager.GetString("SendNow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start now.
+        /// </summary>
+        public static string Start {
+            get {
+                return ResourceManager.GetString("Start", resourceCulture);
             }
         }
         
@@ -169,11 +367,74 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Support.
+        /// </summary>
+        public static string Support {
+            get {
+                return ResourceManager.GetString("Support", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Support of our product is also very important.
+        /// </summary>
+        public static string SupportText {
+            get {
+                return ResourceManager.GetString("SupportText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to CData s.r.o..
         /// </summary>
         public static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Usefull Applications.
+        /// </summary>
+        public static string UsefullApplications {
+            get {
+                return ResourceManager.GetString("UsefullApplications", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User Experiances.
+        /// </summary>
+        public static string UserExperiances {
+            get {
+                return ResourceManager.GetString("UserExperiances", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Web Design.
+        /// </summary>
+        public static string WebDesign {
+            get {
+                return ResourceManager.GetString("WebDesign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Website.
+        /// </summary>
+        public static string Website {
+            get {
+                return ResourceManager.GetString("Website", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to.
+        /// </summary>
+        public static string Welcome {
+            get {
+                return ResourceManager.GetString("Welcome", resourceCulture);
             }
         }
     }

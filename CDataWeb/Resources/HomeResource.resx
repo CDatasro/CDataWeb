@@ -120,14 +120,47 @@
   <data name="AboutUS" xml:space="preserve">
     <value>About Us</value>
   </data>
+  <data name="AboutUsText" xml:space="preserve">
+    <value>We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, sientist and facebook applications</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Analysis" xml:space="preserve">
+    <value>Analysis</value>
+  </data>
+  <data name="AnalysisText" xml:space="preserve">
+    <value>Our product are based on through analysis</value>
+  </data>
+  <data name="AppDevelopment" xml:space="preserve">
+    <value>App Development</value>
+  </data>
+  <data name="AppDevelopmentText" xml:space="preserve">
+    <value>We develop applications via modern programing languages</value>
+  </data>
   <data name="ChooseYourLanguage" xml:space="preserve">
     <value>Choose your language</value>
+  </data>
+  <data name="CleanCode" xml:space="preserve">
+    <value>Clean Code</value>
+  </data>
+  <data name="CleanCodeText" xml:space="preserve">
+    <value>Our code is clean to easy use for custommers and developers</value>
   </data>
   <data name="Contact" xml:space="preserve">
     <value>Contact</value>
   </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>In case you are quesions, please contact us</value>
+  </data>
   <data name="ContactUs" xml:space="preserve">
     <value>Contact Us</value>
+  </data>
+  <data name="CreativeIdea" xml:space="preserve">
+    <value>Creative solution</value>
+  </data>
+  <data name="CreativeIdeaText" xml:space="preserve">
+    <value>Our solutions are creative and ińovative</value>
   </data>
   <data name="EmailAddress" xml:space="preserve">
     <value>Email Address</value>
@@ -135,25 +168,79 @@
   <data name="EnterYourMessage" xml:space="preserve">
     <value>Enter your message</value>
   </data>
+  <data name="FastSupport" xml:space="preserve">
+    <value>Fast Support</value>
+  </data>
+  <data name="Fun" xml:space="preserve">
+    <value>Fun</value>
+  </data>
+  <data name="HappyClients" xml:space="preserve">
+    <value>Happy Clients</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>message</value>
   </data>
+  <data name="ModernWebsites" xml:space="preserve">
+    <value>Modern Websites</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Name</value>
+  </data>
+  <data name="OurPortfolio" xml:space="preserve">
+    <value>Our Portfolio</value>
+  </data>
+  <data name="OurServices" xml:space="preserve">
+    <value>Our Services</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
   </data>
   <data name="Portfolio" xml:space="preserve">
     <value>Portfolio</value>
   </data>
+  <data name="ProfiDesign" xml:space="preserve">
+    <value>Proffesional design</value>
+  </data>
+  <data name="ProfiDesignText" xml:space="preserve">
+    <value>Design of our applications follow modern style</value>
+  </data>
+  <data name="Programming" xml:space="preserve">
+    <value>Programming</value>
+  </data>
   <data name="SendNow" xml:space="preserve">
     <value>Send Now</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start now</value>
   </data>
   <data name="Subject" xml:space="preserve">
     <value>Subject</value>
   </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="SupportText" xml:space="preserve">
+    <value>Support of our product is also very important</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>CData s.r.o.</value>
+  </data>
+  <data name="UsefullApplications" xml:space="preserve">
+    <value>Usefull Applications</value>
+  </data>
+  <data name="UserExperiances" xml:space="preserve">
+    <value>User Experiances</value>
+  </data>
+  <data name="WebDesign" xml:space="preserve">
+    <value>Web Design</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome to</value>
   </data>
 </root>

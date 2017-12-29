@@ -120,14 +120,47 @@
   <data name="AboutUS" xml:space="preserve">
     <value>O nás</value>
   </data>
+  <data name="AboutUsText" xml:space="preserve">
+    <value>Sme mladá rozvíjajúca sa firma. Venujeme sa desktopovým aplikáciam ako aj tvorbe web stránok. Máme skúsenosti s projektami v oblasti autobusovej dopravy, vlakovej dopravy, bankovníctva, vedy a výskumu ako aj facebook aplikáciami </value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="Analysis" xml:space="preserve">
+    <value>Analýza</value>
+  </data>
+  <data name="AnalysisText" xml:space="preserve">
+    <value>Naše produkty majú základ v dôkladnej analýze</value>
+  </data>
+  <data name="AppDevelopment" xml:space="preserve">
+    <value>Vývoj aplikácií</value>
+  </data>
+  <data name="AppDevelopmentText" xml:space="preserve">
+    <value>Vyvýjame aplikácie pomocou najmodernejšich jazykov</value>
+  </data>
   <data name="ChooseYourLanguage" xml:space="preserve">
     <value>Vyberte jazyk</value>
+  </data>
+  <data name="CleanCode" xml:space="preserve">
+    <value>Čistý kód</value>
+  </data>
+  <data name="CleanCodeText" xml:space="preserve">
+    <value>Náš kód je napísaný čisto pre jednoduché použitie použivateľmi aj developermi</value>
   </data>
   <data name="Contact" xml:space="preserve">
     <value>Kontakt</value>
   </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>V prípade otázok nás neváhajte kontaktovať</value>
+  </data>
   <data name="ContactUs" xml:space="preserve">
     <value>Kontaktujte nás</value>
+  </data>
+  <data name="CreativeIdea" xml:space="preserve">
+    <value>Creatívne riešenie</value>
+  </data>
+  <data name="CreativeIdeaText" xml:space="preserve">
+    <value>Naše riešenia sú kreatívne a inovatívne</value>
   </data>
   <data name="EmailAddress" xml:space="preserve">
     <value>Emailová adresa</value>
@@ -135,25 +168,79 @@
   <data name="EnterYourMessage" xml:space="preserve">
     <value>Napíšte Vašu správu</value>
   </data>
+  <data name="FastSupport" xml:space="preserve">
+    <value>Rýchla podpora</value>
+  </data>
+  <data name="Fun" xml:space="preserve">
+    <value>Zábava</value>
+  </data>
+  <data name="HappyClients" xml:space="preserve">
+    <value>Spokojných klientov</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Domov</value>
   </data>
   <data name="Message" xml:space="preserve">
     <value>správa</value>
   </data>
+  <data name="ModernWebsites" xml:space="preserve">
+    <value>Moderných webstránok</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Meno</value>
+  </data>
+  <data name="OurPortfolio" xml:space="preserve">
+    <value>Naše projekty</value>
+  </data>
+  <data name="OurServices" xml:space="preserve">
+    <value>Naše služby</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefón</value>
   </data>
   <data name="Portfolio" xml:space="preserve">
     <value>Portfólio</value>
   </data>
+  <data name="ProfiDesign" xml:space="preserve">
+    <value>Profesionálny dizajn</value>
+  </data>
+  <data name="ProfiDesignText" xml:space="preserve">
+    <value>Náš dizajn sleduje trend moderných aplikácií</value>
+  </data>
+  <data name="Programming" xml:space="preserve">
+    <value>Programovanie</value>
+  </data>
   <data name="SendNow" xml:space="preserve">
     <value>Poslať</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
   </data>
   <data name="Subject" xml:space="preserve">
     <value>Predmet</value>
   </data>
+  <data name="Support" xml:space="preserve">
+    <value>Podpora</value>
+  </data>
+  <data name="SupportText" xml:space="preserve">
+    <value>Podpora našich produktov je tieź veľmi dôležitá</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>CData s.r.o.</value>
+  </data>
+  <data name="UsefullApplications" xml:space="preserve">
+    <value>Spolahlivých aplikácií</value>
+  </data>
+  <data name="UserExperiances" xml:space="preserve">
+    <value>Referencie</value>
+  </data>
+  <data name="WebDesign" xml:space="preserve">
+    <value>Web Design</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Web stránka</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Vitajte na stránke</value>
   </data>
 </root>
