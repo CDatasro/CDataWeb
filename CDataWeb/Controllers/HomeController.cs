@@ -64,7 +64,7 @@ namespace CDataWeb.Controllers
                 Port = 587,
                 EnableSsl = true,
                 UseDefaultCredentials = false,
-                Credentials = new System.Net.NetworkCredential("cdatasro@gmail.com", "")
+                Credentials = new System.Net.NetworkCredential("cdatasro@gmail.com", "860114qWE")
             };
 
             using (var msg = new System.Net.Mail.MailMessage(model.Email, recipients,model.Name + " " + model.Subject, model.Message))
