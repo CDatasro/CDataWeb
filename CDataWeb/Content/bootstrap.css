@@ -359,6 +359,12 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
+  margin-top:10px;
+}
+
+.flag {
+    margin-top: 5px;
+    margin-bottom: 4px;
 }
 
 .img-rounded {
@@ -823,6 +829,7 @@ pre code {
 .col-sm-1,
 .col-sm-2,
 .col-sm-3,
+.col-sm-3a,
 .col-sm-4,
 .col-sm-5,
 .col-sm-6,
@@ -931,6 +938,7 @@ pre code {
   .col-sm-1,
   .col-sm-2,
   .col-sm-3,
+  .col-sm-3a,
   .col-sm-4,
   .col-sm-5,
   .col-sm-6,
@@ -948,6 +956,9 @@ pre code {
     width: 16.666666666666664%;
   }
   .col-sm-3 {
+    width: 33%;
+  }
+  .col-sm-3a {
     width: 25%;
   }
   .col-sm-4 {

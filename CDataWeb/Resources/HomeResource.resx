@@ -121,7 +121,7 @@
     <value>About Us</value>
   </data>
   <data name="AboutUsText" xml:space="preserve">
-    <value>We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, sientist and facebook applications</value>
+    <value>We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, sientist and facebook applications.</value>
   </data>
   <data name="Address" xml:space="preserve">
     <value>Address</value>
@@ -130,7 +130,7 @@
     <value>Analysis</value>
   </data>
   <data name="AnalysisText" xml:space="preserve">
-    <value>Our product are based on through analysis</value>
+    <value>Our products are based on through analysis</value>
   </data>
   <data name="AppDevelopment" xml:space="preserve">
     <value>App Development</value>
@@ -208,16 +208,16 @@
     <value>Facebook voting application</value>
   </data>
   <data name="PortfLivingText" xml:space="preserve">
-    <value>Software helps custommer rent their cottages</value>
+    <value>Software helps customers to rent their cottages</value>
   </data>
   <data name="Portfolio" xml:space="preserve">
     <value>Portfolio</value>
   </data>
   <data name="PortfScientText" xml:space="preserve">
-    <value>Software to communicate and distribute information between patients and doctors  </value>
+    <value>Software for help with communication and distribution of informations between patients and doctors  </value>
   </data>
   <data name="PortfTrainText" xml:space="preserve">
-    <value>Information system infrastructure</value>
+    <value>Information system of infrastructure</value>
   </data>
   <data name="ProfiDesign" xml:space="preserve">
     <value>Proffesional design</value>
@@ -260,5 +260,20 @@
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welcome to</value>
+  </data>
+  <data name="Where" xml:space="preserve">
+    <value>Where you can find us</value>
+  </data>
+  <data name="Welcome1" xml:space="preserve">
+    <value>Desktop aplications - Responsive Design - Web</value>
+  </data>
+  <data name="Welcome2" xml:space="preserve">
+    <value>Say Hello to</value>
+  </data>
+  <data name="Welcome3" xml:space="preserve">
+    <value>We are</value>
+  </data>
+  <data name="Welcome4" xml:space="preserve">
+    <value>Creative</value>
   </data>
 </root>

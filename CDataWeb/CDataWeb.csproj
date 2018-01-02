@@ -245,12 +245,13 @@
     <Content Include="images\blog\2.jpg" />
     <Content Include="images\blog\3.jpg" />
     <Content Include="images\contact-bg.jpg" />
-    <Content Include="images\favicon.ico" />
+    <Content Include="images\favicon.png" />
     <Content Include="images\features-bg.jpg" />
     <Content Include="images\lightbox\close.png" />
     <Content Include="images\lightbox\loading.gif" />
     <Content Include="images\lightbox\next.png" />
     <Content Include="images\lightbox\prev.png" />
+    <Content Include="images\logo-bw.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\portfolio\1.jpg" />
     <Content Include="images\portfolio\2.jpg" />

@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, sientist and facebook applications.
+        ///   Looks up a localized string similar to We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, sientist and facebook applications..
         /// </summary>
         public static string AboutUsText {
             get {
@@ -97,7 +97,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our product are based on through analysis.
+        ///   Looks up a localized string similar to Our products are based on through analysis.
         /// </summary>
         public static string AnalysisText {
             get {
@@ -331,7 +331,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Software helps custommer rent their cottages.
+        ///   Looks up a localized string similar to Software helps customers to rent their cottages.
         /// </summary>
         public static string PortfLivingText {
             get {
@@ -349,7 +349,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Software to communicate and distribute information between patients and doctors  .
+        ///   Looks up a localized string similar to Software for help with communication and distribution of informations between patients and doctors  .
         /// </summary>
         public static string PortfScientText {
             get {
@@ -358,7 +358,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Information system infrastructure.
+        ///   Looks up a localized string similar to Information system of infrastructure.
         /// </summary>
         public static string PortfTrainText {
             get {
@@ -489,6 +489,51 @@ namespace Resources {
         public static string Welcome {
             get {
                 return ResourceManager.GetString("Welcome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Desktop aplications - Responsive Design - Web.
+        /// </summary>
+        public static string Welcome1 {
+            get {
+                return ResourceManager.GetString("Welcome1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Say Hello to.
+        /// </summary>
+        public static string Welcome2 {
+            get {
+                return ResourceManager.GetString("Welcome2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We are.
+        /// </summary>
+        public static string Welcome3 {
+            get {
+                return ResourceManager.GetString("Welcome3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Creative.
+        /// </summary>
+        public static string Welcome4 {
+            get {
+                return ResourceManager.GetString("Welcome4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Where you can find us.
+        /// </summary>
+        public static string Where {
+            get {
+                return ResourceManager.GetString("Where", resourceCulture);
             }
         }
     }
