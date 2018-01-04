@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, sientist and facebook applications..
+        ///   Looks up a localized string similar to We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, scientist and facebook applications..
         /// </summary>
         public static string AboutUsText {
             get {
