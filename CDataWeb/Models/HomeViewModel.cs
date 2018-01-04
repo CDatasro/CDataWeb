@@ -12,6 +12,7 @@ namespace CDataWeb.Models
         public string SelectedLanguage { get; set; }
 
         [Required]
+        [EmailAddress]
         public string Email { get; set; }
 
         [Required]

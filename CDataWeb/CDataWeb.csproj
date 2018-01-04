@@ -258,7 +258,6 @@
     <Content Include="images\portfolio\4.jpg" />
     <Content Include="images\portfolio\5.jpg" />
     <Content Include="images\portfolio\6.jpg" />
-    <Content Include="images\portfolio\portfolio-details.jpg" />
     <Content Include="images\slider\1.jpg" />
     <Content Include="images\slider\2.jpg" />
     <Content Include="images\slider\3.jpg" />
@@ -306,7 +305,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

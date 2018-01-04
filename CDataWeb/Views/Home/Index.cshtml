@@ -686,6 +686,7 @@
                             <div class="col-sm-6">
                                 @using (Html.BeginForm("SendEmail", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
                                 {
+                                    @Html.ValidationSummary()
                                     <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                                         <div class="col-sm-6">
                                             <div class="form-group">

@@ -53,7 +53,7 @@ namespace CDataWeb.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return RedirectToAction("Index");
+                return View("Index", model); //RedirectToAction("Index");
             }
 
             string recipients = "cdatasro@gmail.com";
@@ -75,7 +75,8 @@ namespace CDataWeb.Controllers
                 }
                 catch (Exception ex)
                 {
-                    // TODO: Handle the exception
+                    ModelState.AddModelError("Error", ex.Message);
+                    return View("Index", model);
                 }              
             }
 
