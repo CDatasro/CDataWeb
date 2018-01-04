@@ -56,7 +56,7 @@ namespace CDataWeb.Controllers
                 return View("Index", model); //RedirectToAction("Index");
             }
 
-            string recipients = "cdatasro@gmail.com";
+            string recipients = "info@cdata.sk";
 
             var gmailClient = new System.Net.Mail.SmtpClient
             {
@@ -64,7 +64,7 @@ namespace CDataWeb.Controllers
                 Port = 587,
                 EnableSsl = true,
                 UseDefaultCredentials = false,
-                Credentials = new System.Net.NetworkCredential("cdatasro@gmail.com", "")
+                Credentials = new System.Net.NetworkCredential("info@cdata.sk", "")
             };
 
             using (var msg = new System.Net.Mail.MailMessage(model.Email, recipients,model.Name + " " + model.Subject, model.Message))
