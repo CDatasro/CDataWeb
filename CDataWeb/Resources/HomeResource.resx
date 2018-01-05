@@ -121,7 +121,7 @@
     <value>About Us</value>
   </data>
   <data name="AboutUsText" xml:space="preserve">
-    <value>We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, scientist and facebook applications.</value>
+    <value>We are a young, progressive company. We build desktop and web applications. We have some experience in designing  bus , train, bank, scientist and facebook applications.</value>
   </data>
   <data name="Address" xml:space="preserve">
     <value>Address</value>
@@ -130,13 +130,13 @@
     <value>Analysis</value>
   </data>
   <data name="AnalysisText" xml:space="preserve">
-    <value>Our products are based on through analysis</value>
+    <value>Our products are based on thorough analysis</value>
   </data>
   <data name="AppDevelopment" xml:space="preserve">
     <value>App Development</value>
   </data>
   <data name="AppDevelopmentText" xml:space="preserve">
-    <value>We develop applications via modern programing languages</value>
+    <value>We develop applications via modern programming languages</value>
   </data>
   <data name="ChooseYourLanguage" xml:space="preserve">
     <value>Choose your language</value>
@@ -145,13 +145,13 @@
     <value>Clean Code</value>
   </data>
   <data name="CleanCodeText" xml:space="preserve">
-    <value>Our code is clean to easy use for custommers and developers</value>
+    <value>Our code is client and developer friendly and easy to use</value>
   </data>
   <data name="Contact" xml:space="preserve">
     <value>Contact</value>
   </data>
   <data name="ContactHeader" xml:space="preserve">
-    <value>In case you are quesions, please contact us</value>
+    <value>If you have any questions, please, contact us</value>
   </data>
   <data name="ContactUs" xml:space="preserve">
     <value>Contact Us</value>
@@ -160,7 +160,7 @@
     <value>Creative solution</value>
   </data>
   <data name="CreativeIdeaText" xml:space="preserve">
-    <value>Our solutions are creative and ińovative</value>
+    <value>Our solutions are creative and innovative</value>
   </data>
   <data name="EmailAddress" xml:space="preserve">
     <value>Email Address</value>
@@ -220,10 +220,10 @@
     <value>Information system of infrastructure</value>
   </data>
   <data name="ProfiDesign" xml:space="preserve">
-    <value>Proffesional design</value>
+    <value>Professional design</value>
   </data>
   <data name="ProfiDesignText" xml:space="preserve">
-    <value>Design of our applications follow modern style</value>
+    <value>Designing our apps, we go with the latest styles and trends</value>
   </data>
   <data name="Programming" xml:space="preserve">
     <value>Programming</value>
@@ -241,7 +241,7 @@
     <value>Support</value>
   </data>
   <data name="SupportText" xml:space="preserve">
-    <value>Support of our product is also very important</value>
+    <value>supporting our products is also very important</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>CData s.r.o.</value>

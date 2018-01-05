@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We are young, progressive company. We build desktop and web applications. We have some experience in bus , train, bank, scientist and facebook applications..
+        ///   Looks up a localized string similar to We are a young, progressive company. We build desktop and web applications. We have some experience in designing  bus , train, bank, scientist and facebook applications..
         /// </summary>
         public static string AboutUsText {
             get {
@@ -97,7 +97,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our products are based on through analysis.
+        ///   Looks up a localized string similar to Our products are based on thorough analysis.
         /// </summary>
         public static string AnalysisText {
             get {
@@ -115,7 +115,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We develop applications via modern programing languages.
+        ///   Looks up a localized string similar to We develop applications via modern programming languages.
         /// </summary>
         public static string AppDevelopmentText {
             get {
@@ -142,7 +142,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our code is clean to easy use for custommers and developers.
+        ///   Looks up a localized string similar to Our code is client and developer friendly and easy to use.
         /// </summary>
         public static string CleanCodeText {
             get {
@@ -160,7 +160,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to In case you are quesions, please contact us.
+        ///   Looks up a localized string similar to If you have any questions, please, contact us.
         /// </summary>
         public static string ContactHeader {
             get {
@@ -187,7 +187,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our solutions are creative and ińovative.
+        ///   Looks up a localized string similar to Our solutions are creative and innovative.
         /// </summary>
         public static string CreativeIdeaText {
             get {
@@ -367,7 +367,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Proffesional design.
+        ///   Looks up a localized string similar to Professional design.
         /// </summary>
         public static string ProfiDesign {
             get {
@@ -376,7 +376,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Design of our applications follow modern style.
+        ///   Looks up a localized string similar to Designing our apps, we go with the latest styles and trends.
         /// </summary>
         public static string ProfiDesignText {
             get {
@@ -430,7 +430,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Support of our product is also very important.
+        ///   Looks up a localized string similar to supporting our products is also very important.
         /// </summary>
         public static string SupportText {
             get {
